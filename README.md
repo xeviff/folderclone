@@ -6,6 +6,6 @@ Requerimientos: Hay que haber generado primero con fcmanager (el otro poyecto de
 
 /volume1/docker/folderclone/git_repo --> Directorio raíz donde alojarás las carpetas de los dos proyectos (fcmanager y folderclone)
 
-/volume1/docker/folderclone/sas_packs ---> Aquí, después de haber ejecutado correctamente los comandos del proyecto fcmanager tendrás en la carpeta de la cuenta que has seleccionado, todos los accounts+keys (sas). Deberás copiarlo a la siguiente carpeta: /volume1/docker/folderclone/git_repo/folderclone/{nombrecuenta}_config
+/volume1/docker/folderclone/sas_packs ---> Aquí, después de haber ejecutado correctamente los comandos del proyecto fcmanager tendrás en la carpeta de la cuenta que has seleccionado, todos los accounts+keys (sas). Deberás copiarlo a la siguiente carpeta: /volume1/docker/folderclone/git_repo/folderclone/{nombrecuenta}_config (después de generar la imágen, ya puedes borrar esta carpeta ;-D )
 
 /volume1/docker/folderclone/git_repo/folderclone/ ---> Aquí deberás alojar el código del proyecto descargado de GIT. Contiene el script build.sh para generar la imagen Docker de la cuenta que quieras y run.sh que ejecutará el clonado
