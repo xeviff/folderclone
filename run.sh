@@ -1,0 +1,1 @@
+docker run -it --rm xeviff/folderclone:$1 -s $2 -d $3;
