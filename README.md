@@ -1,6 +1,6 @@
 # folderclone
 
-Conjunto de utilidades basadas en multifolderclone pensadas para ejecutar clonados de carpetas o Team Drives enteros de una forma muy simple por lo que respecta a los comandos y sus parámetros. Utiliza dockers, en concreto se crean y se destruyen al momento. Después de tener la estructura de carpetas correcta y generar una imagen por cada cuenta que quieras utilizar, sólo hay que ejecutar un comando sencillisimo con 3 parámetros: nombre de la cuenta, orígen y destino.
+Conjunto de utilidades basadas en multifolderclone pensadas para ejecutar clonados de carpetas o Team Drives enteros de una forma muy simple por lo que respecta a los comandos y sus parámetros. Utiliza dockers, en concreto se crean y se destruyen al momento. Después de tener la estructura de carpetas correcta y tener los accounts listos, sólo hay que ejecutar un comando sencillisimo con 3 parámetros: nombre de la cuenta, orígen y destino.
 
 Requerimientos: Haber generado primero los accounts que se utilizarán, por ejemplo con fcmanager (el otro poyecto que he creado para complementar a éste). También como comentaba hay que tener la estructura de carpetas siguiente:
 
